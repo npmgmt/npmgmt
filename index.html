@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +13,75 @@
 <body>
 
     <main>
-        <h1>NPMGMT</h1>
-        <p>ARTIST MANAGEMENT</p>
-        <p class="description">
-    For management, booking and business inquiries.
-</p>
 
-<div class="inquiry-box">
+        <section class="content">
+
+            <!-- BRAND -->
+
+            <h1>NPMGMT</h1>
+
+            <p class="subtitle">
+                ARTIST MANAGEMENT
+            </p>
+
+            <p class="description">
+                For management, booking and business inquiries.
+            </p>
+
+
+            <!-- INQUIRY FORM -->
+
+            <div class="inquiry-box">
+
+                <h2>INQUIRY</h2>
+
+                <form>
+
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="NAME"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="EMAIL"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        name="artist"
+                        placeholder="ARTIST / COMPANY"
+                    >
+
+                    <textarea
+                        name="message"
+                        placeholder="YOUR MESSAGE"
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        SEND INQUIRY →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
     </main>
 
+
+    <!-- FOOTER -->
+
+    <footer>
+        info@npmgmt.de
+    </footer>
+
 </body>
+
 </html>
