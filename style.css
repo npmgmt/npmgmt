@@ -1,11 +1,5 @@
 /* ==================================================
-   NPMGMT
-   Artist Management
-   ================================================== */
-
-
-/* ==================================================
-   RESET
+   NP MANAGEMENT
    ================================================== */
 
 * {
@@ -104,7 +98,7 @@ main {
    ================================================== */
 
 .content {
-    width: min(560px, 100%);
+    width: min(700px, 100%);
 
     text-align: center;
 }
@@ -115,30 +109,32 @@ main {
    ================================================== */
 
 h1 {
-    font-size: clamp(4rem, 10vw, 8rem);
+    font-size: clamp(3.5rem, 9vw, 7rem);
 
     font-weight: 700;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
 
     line-height: 0.9;
+
+    color: #FD1D1D;
 }
 
 
 /* ==================================================
-   SUBTITLE
+   ARTISTS
    ================================================== */
 
-.subtitle {
-    margin-top: 18px;
+.artists {
+    margin-top: 22px;
 
-    font-size: 0.72rem;
+    font-size: 0.75rem;
 
-    font-weight: 400;
+    font-weight: 700;
 
-    letter-spacing: 0.55em;
+    letter-spacing: 0.35em;
 
-    color: rgba(255, 255, 255, 0.75);
+    color: #FD1D1D;
 }
 
 
@@ -252,7 +248,7 @@ textarea::placeholder {
 
 input:focus,
 textarea:focus {
-    border-bottom-color: #fff;
+    border-bottom-color: #FD1D1D;
 }
 
 
@@ -276,9 +272,9 @@ button {
 
     padding: 15px 20px;
 
-    background: #fff;
+    background: #FD1D1D;
 
-    border: 1px solid #fff;
+    border: 1px solid #FD1D1D;
 
     color: #000;
 
@@ -305,7 +301,7 @@ button {
 button:hover {
     background: transparent;
 
-    color: #fff;
+    color: #FD1D1D;
 }
 
 
@@ -346,14 +342,18 @@ footer {
 
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
+
+        letter-spacing: 0.05em;
     }
 
 
-    .subtitle {
+    .artists {
         font-size: 0.58rem;
 
-        letter-spacing: 0.4em;
+        letter-spacing: 0.25em;
+
+        line-height: 1.8;
     }
 
 
