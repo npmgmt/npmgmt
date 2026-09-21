@@ -57,7 +57,28 @@
 
                 <h2>INQUIRY</h2>
 
-                <form>
+                <form
+                    action="https://api.web3forms.com/submit"
+                    method="POST"
+                >
+
+                    <!-- WEB3FORMS ACCESS KEY -->
+
+                    <input
+                        type="hidden"
+                        name="access_key"
+                        value="164e62e8-943b-4273-bbd5-5fc50086ce58"
+                    >
+
+                    <!-- EMAIL SUBJECT -->
+
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value="New NPMGMT Inquiry"
+                    >
+
+                    <!-- NAME -->
 
                     <input
                         type="text"
@@ -66,6 +87,8 @@
                         required
                     >
 
+                    <!-- EMAIL -->
+
                     <input
                         type="email"
                         name="email"
@@ -73,17 +96,23 @@
                         required
                     >
 
+                    <!-- ARTIST / COMPANY -->
+
                     <input
                         type="text"
                         name="artist"
                         placeholder="ARTIST / COMPANY"
                     >
 
+                    <!-- MESSAGE -->
+
                     <textarea
                         name="message"
                         placeholder="YOUR MESSAGE"
                         required
                     ></textarea>
+
+                    <!-- SUBMIT -->
 
                     <button type="submit">
                         SEND INQUIRY →
