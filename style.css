@@ -1,0 +1,58 @@
+/* =========================
+   NPMGMT — BASE
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/* =========================
+   MAIN
+   ========================= */
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+/* =========================
+   BRAND
+   ========================= */
+
+h1 {
+    font-size: clamp(4rem, 10vw, 9rem);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+p {
+    margin-top: 14px;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.45em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
